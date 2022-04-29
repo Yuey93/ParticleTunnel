@@ -59,7 +59,7 @@ let hue = 0
 let hueRadians = 0
 
 function generateRing() {
-  setTimeout(generateRing, 100)
+  setTimeout(generateRing, 200)
 
   hue = Math.sin(hueRadians)
 
