@@ -30,7 +30,7 @@ class Particle {
     this.radius = radius
     this.color = color
     this.velocity = velocity
-    this.lifetime = 1500
+    this.lifetime = 800
   }
 
   draw() {
@@ -63,7 +63,7 @@ function generateRing() {
 
   hue = Math.sin(hueRadians)
 
-  const particleCount = 50
+  const particleCount = 40
 
   for (let i = 0; i < particleCount; i++) {
     // full circle = pi * 2 radians
